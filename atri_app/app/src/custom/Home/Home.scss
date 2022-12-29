@@ -1,0 +1,69 @@
+#root{
+    overflow-x: hidden;
+}
+
+.p-Home.TextBox8,.p-Home.TextBox12,.p-Home.TextBox30,.p-Home.TextBox33,.p-Home.TextBox36,.p-Home.TextBox39,.p-Home.TextBox49,.p-Home.TextBox78,.p-Home.TextBox107,.p-Home.TextBox116,.p-Home.TextBox119{
+    background: #B16CEA;
+    background: linear-gradient(to right, #B16CEA 0%, #EE6186 32%, #FFA44C 63%);
+    background-clip: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.p-Home.Button2,.p-Home.Button4{
+    -webkit-box-shadow: 9px 10px 0px 0px rgba(177,108,234,1);
+-moz-box-shadow: 9px 10px 0px 0px rgba(177,108,234,1);
+box-shadow: 9px 10px 0px 0px rgba(177,108,234,1);
+}
+.p-Home.Button2:hover,.p-Home.Button4:hover{
+    box-shadow: none;
+    transition: 0.2s ease-in-out;
+    transform: translateX(-10px);
+}
+
+.p-Home.Button3:hover{
+    transform: translateX(4px);
+    transition: all 0.4s ease;
+}
+
+.p-Home.Button11,.p-Home.Button12,.p-Home.Button13,.p-Home.Button14,.p-Home.Button15,.p-Home.Button16{
+    transform: rotate(-50deg);
+}
+
+.p-Home.Flex71:hover,.p-Home.Flex72:hover,.p-Home.Flex73:hover,.p-Home.Flex78:hover,.p-Home.Flex79:hover,.p-Home.Flex80:hover{
+cursor: pointer;
+border-bottom: 1.5px solid black;
+transition:all 0.4s ease;
+.p-Home.Button11,.p-Home.Button12,.p-Home.Button13,.p-Home.Button14,.p-Home.Button15,.p-Home.Button16{
+    transform: rotate(-50deg)scale(1.2);
+    transition: all 0.4s ease;
+}
+}
+
+.p-Home.Accordion1,.p-Home.Accordion9,.p-Home.Accordion10,.p-Home.Accordion11,.p-Home.Accordion12,.p-Home.Accordion13,.p-Home.Accordion14,.p-Home.Accordion15{
+width: 98%;
+}
+
+.p-Home button.accordion{
+    margin-left: 80px;
+    background: #000;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #818181;
+    padding-bottom: 30px;
+    
+}
+
+.accordion-title {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.p-Home.TextBox119:hover{
+    border-bottom:1px solid #B16CEA;
+   transition: 0.4s ease-in-out; 
+   cursor: pointer;
+}
